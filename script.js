@@ -80,9 +80,9 @@
 // }
 
 // function getRandomRgb() {
-//   r = getRandomInteger(0, 255);
-//   g = getRandomInteger(0, 255);
-//   b = getRandomInteger(0, 255);
+//   let r = getRandomInteger(0, 255);
+//   let g = getRandomInteger(0, 255);
+//   let b = getRandomInteger(0, 255);
 //   console.log(`rgb(${r},${g},${b})`);
 // }
 
@@ -90,15 +90,15 @@
 
 // Задание 9
 
-// function stepUp(n) {
-//   for (let i = 1; i <= n; i += 0.5) {
-//     if (i === 1) {
-//       console.log(i + " integer");
-//     } else if (i % 2 === 0) {
-//       console.log(i + " integer");
-//     } else console.log(i + " decimal");
-//   }
-// }
+function stepUp(n) {
+    for (let i = 1; i <= n; i += 0.5) {
+      if (i % 1 === 0) {
+        console.log(n + " integer");
+      } else {
+        console.log(n + " decimal");
+      }
+    }
+  }
 
 // stepUp(5);
 
